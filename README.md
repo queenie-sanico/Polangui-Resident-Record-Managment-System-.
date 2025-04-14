@@ -13,8 +13,10 @@ MySql Workbench
 # Members with Roles
 Project Leader: Queenie Sanico 
 Database Architect: Chariz Abanel
+
 SQL Developer: Allanah Janelle Benisano 
 Back-End Developer: Eleana Mae Esparagoza 
+
 Q.A Tester: May Abaño 
 
 # Progress
