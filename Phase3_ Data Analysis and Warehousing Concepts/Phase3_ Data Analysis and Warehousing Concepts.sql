@@ -152,6 +152,12 @@ DELIMITER ;
 
 CALL GenerateResidents(100000);
 
+CREATE INDEX idx_resident_barangay_id ON Resident(barangay_id);
+CREATE INDEX idx_status_resident_id ON ResidencyStatus(resident_id);
+CREATE INDEX idx_barangay_name ON Barangay(barangay_name);
+CREATE INDEX idx_resident_name ON Resident(last_name, first_name);
+
+
 CREATE OR REPLACE VIEW ResidentDetailedInfo AS
 SELECT 
     r.resident_id,
